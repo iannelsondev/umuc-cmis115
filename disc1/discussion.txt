@@ -1,0 +1,29 @@
+As a Mac user, I already had my App Store configured and running. Since I use the XCode Command Line tools for other functions (such as Homebrew), it was pretty easy to find and install the XCode GUI from the App Store, as seen in the image below.
+
+xcode in appstore
+
+Once it had installed to Launchpad from the download, I installed the application. This unpacked the archive, configured OS X with XCode, and installed the IDE and SDKs as well. From there, XCode was now working and I was off to run the examples. I loaded XCode from the Applications folder, and was presented with a welcome screen:
+
+xcode welcome
+
+From here I walked through the videos in the 'Hello World Application Example'. I created a new project, which led me to the template selection screen, where I picked 'Command Line Tool' under OS X / Application:
+
+xcode template
+
+Once I had selected a template, I was then presented with project options. As specified in the instructions, I created the project name as 'helloworld', and used a company identifier of home, which created my bundle identifier. Additionally, I used the 'Foundation' project type, as specified for all projects this semester, as seen below:
+
+project options
+
+From here, I saved the project into a folder called 'helloworld' to match the project name, and was presented with the IDE layout:
+
+xcode ide
+
+Finally, I copied the source code from the Object 1 code example into my 'main.m' file and was ready to start learning and discovering what Objective-C was all about.
+
+example source
+
+As you can see, the NSAutoreleasePool class was throwing an error that it was not available. As a result, I did some reading, and saw that syntax was a bit different in some of the examples I had seen across the Internet. Instead of instantiating the class for the memory management system and a specific pool, I used the '@autoreleasepool' annotation and placed the output inside of its scope. This allowed my program to be error-free, and gave me the output I was looking for:
+
+autoreleasepool
+
+Overall, I thought the process of installing, starting and using Xcode to generated a project was relatively straight-forward. Other than the error I received regarding NSAutoreleasePool, which only required a little research, the process was very easy to get started writing Objective-C!
