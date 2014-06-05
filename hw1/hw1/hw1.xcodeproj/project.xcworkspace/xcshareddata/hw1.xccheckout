@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>594A3528-BE37-4075-A483-FE8C3AB16E51</string>
+	<key>IDESourceControlProjectName</key>
+	<string>hw1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D0802EC9-EBC6-4BF0-A498-EE2472AC9A0B</key>
+		<string>https://github.com/in2rd/umuc-cmis115.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>hw1/hw1/hw1.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D0802EC9-EBC6-4BF0-A498-EE2472AC9A0B</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/in2rd/umuc-cmis115.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D0802EC9-EBC6-4BF0-A498-EE2472AC9A0B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D0802EC9-EBC6-4BF0-A498-EE2472AC9A0B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>umuc-cmis115</string>
+		</dict>
+	</array>
+</dict>
+</plist>
