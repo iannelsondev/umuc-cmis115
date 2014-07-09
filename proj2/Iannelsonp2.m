@@ -1,3 +1,13 @@
+//
+//  Ian Nelson
+//  CMIS115
+//  Project 2
+//  Puran Nebhnani
+//
+//  Iannelsonp2.m
+//
+//  Created by Ian Nelson on 7/8/14
+
 #include <Foundation/Foundation.h>
 #include "Wheeled.h"
 #include "Cars.h"
@@ -11,9 +21,9 @@
 int main (int argc, const char * argv[]) {
     // Auto memory management.
     @autoreleasepool {
-        // Create a new 'Wheeled' object. 
+        // Create a new 'Wheeled' object.
         Wheeled *wheeled = [Wheeled new];
-       
+
         // Call the start function and set the
         // number of wheels to two for a test.
         NSLog(@"(Starting Wheeled, should not see a message.)");
@@ -26,7 +36,7 @@ int main (int argc, const char * argv[]) {
 
         // Wheeled brake check.
         NSLog(@"(Applying brakes to Wheeled, should not see a message.)");
-        [wheeled brake];
+        [wheeled stop];
         NSLog(@"Speed of Wheeled: %d", [wheeled speed]);
 
         // Spacer.
@@ -36,7 +46,7 @@ int main (int argc, const char * argv[]) {
         Cars *car = [Cars new];
 
         // Start the car (20mph) and set number
-        // of wheels to four. 
+        // of wheels to four.
         NSLog(@"(Starting Car, should see a message.)");
         [car start];
 
@@ -46,10 +56,10 @@ int main (int argc, const char * argv[]) {
 
         // Car brake check.
         NSLog(@"(Applying brakes to Car, should see a message.)");
-        [car brake];
+        [car stop];
         NSLog(@"Speed of Car: %d", [car speed]);
     }
-   
+
     // Exit cleanly.
     return 0;
 }

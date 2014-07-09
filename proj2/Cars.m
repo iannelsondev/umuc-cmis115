@@ -1,23 +1,26 @@
 //
 //  Ian Nelson
 //  CMIS115
-//  Homework 3 
+//  Project 2
 //  Puran Nebhnani
 //
-//  Wheeled.m
+//  Cars.m
 //
-//  Created by Ian Nelson on 7/2/14
+//  Created by Ian Nelson on 7/8/14
 
 #import <Foundation/Foundation.h>
 #import "Cars.h"
 
 /**
- * Class implementation for Wheeled 
+ * Class implementation for Wheeled
  *
  * @inherits NSObject
  */
-@implementation Cars 
+@implementation Cars
 
+/**
+ * Default constructor. Sets wheels to '4'.
+ */
 -(id)init {
     self = [super init];
     self.wheels = 4;
@@ -25,19 +28,18 @@
 }
 
 /**
- * Prints message that Car is moving and calls superclass fn 
+ * Prints message that Car is moving and calls superclass fn
  */
 - (void) start {
     NSLog(@"Car is now moving.");
-    [super start]; 
+    [super start];
 }
 
 /**
- * Prints message that Car is breaking and calls superclass fn 
+ * Prints message that Car is breaking and calls superclass fn
  */
-- (void) brake {
+- (void) stop {
     NSLog(@"Brakes are being applied.");
-    [super brake]; 
+    [super stop];
 }
 @end
-

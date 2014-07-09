@@ -1,17 +1,17 @@
 //
 //  Ian Nelson
 //  CMIS115
-//  Homework 3 
+//  Project 2
 //  Puran Nebhnani
 //
 //  Wheeled.h
 //
-//  Created by Ian Nelson on 7/2/14
+//  Created by Ian Nelson on 7/8/14
 
 #import <Foundation/Foundation.h>
 
 /**
- * Class interface for Wheeled 
+ * Class interface for Wheeled
  *
  * @inherits NSObject
  */
@@ -28,5 +28,5 @@
 - (void) start;
 
 // Definition to stop Wheeled object.
-- (void) brake;
+- (void) stop;
 @end
