@@ -3,7 +3,7 @@ CC=clang # or gcc
 FRAMEWORKS:= -framework Foundation
 LIBRARIES:= -lobjc
 
-SOURCE=Wheeled.m Cars.m proj2.m
+SOURCE=Wheeled.m Cars.m Iannelsonp2.m
 
 CFLAGS=-Wall -Werror -g -v $(SOURCE)
 LDFLAGS=$(LIBRARIES) $(FRAMEWORKS)
