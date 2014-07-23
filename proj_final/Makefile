@@ -7,7 +7,7 @@ SOURCE=SongList.m Song.m Iannelsonfp.m
 
 CFLAGS=-Wall -Werror -g -v $(SOURCE)
 LDFLAGS=$(LIBRARIES) $(FRAMEWORKS)
-OUT=-o fp
+OUT=-o Iannelsonfp
 
 all:
 	    $(CC) $(CFLAGS) $(LDFLAGS) $(OUT)
