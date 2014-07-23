@@ -110,7 +110,7 @@
  */
 -(void)save {
     // Define the file name for output.
-    NSString *fileName= @"songlist.txt";
+    NSString *fileName= @"Mysongs.txt";
     // Create an NSError object with no error status.
     NSError *error = noErr;
 
