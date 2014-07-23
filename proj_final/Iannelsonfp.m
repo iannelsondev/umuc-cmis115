@@ -64,7 +64,7 @@ int main(int argc, const char * argv[]) {
         [songList printSongs];
 
         // Save the sorted list.
-        NSLog(@"Saving the sorted list to 'songlist.txt'...");
+        NSLog(@"Saving the sorted list to 'Mysongs.txt'...");
         [songList save];
     }
 
